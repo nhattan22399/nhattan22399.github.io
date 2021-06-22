@@ -1,0 +1,240 @@
+
+@font-face {
+    font-family: nunito ;
+    src: url("font/Nunito-Bold.ttf");
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: nunito;
+}
+
+.lk{
+    text-decoration: none;
+    color: black;
+}
+.lk:hover{
+    color: black;
+}
+/*xu li menu*/
+
+.navbar{
+    background-color:  rgba(147, 255, 255, 1) !important;
+    position: fixed !important;
+    width: 100% !important;
+    text-shadow: 1px 1px white;
+    
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+    width: max-content;
+}
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    list-style: none;
+    background-color: #f5f5f5;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.btn-nav{
+    margin-left: 15px;
+    width: 9rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black !important;
+    border-color: blanchedalmond !important;
+    background-color: white !important;
+    
+}
+.btn-nav:hover{
+    background-color: red !important;
+    border-color: red !important;
+}
+#carouselExampleIndicators{
+    margin-top: 70px !important;
+}
+/**list product**/
+.writer-card{
+    margin-left: -1px;
+    margin-right: 3px;
+    font-size: smaller;
+    margin-bottom: 0.5rem;
+}
+
+.list-product-title{
+    width: 100%;
+    text-transform: uppercase;
+    margin-left: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.list-product-subtitle{
+    width: 100%;
+    margin-left: 5px;
+    margin-left: 5px;
+    margin-right: 5px;  
+}
+/**card-product**/
+.card-product{
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    overflow: hidden;
+    position: relative;
+}
+.product-title{
+    margin-bottom: 1rem;
+}
+.product-price{
+    position: relative;
+    
+}
+
+.btn-add-to-cart{
+    color: white !important;
+    background-color: #3a5c8a !important;
+    border: 1px solid #3a5c8a !important ;
+}
+.btn-add-to-cart:hover{
+    background-color: #f90 !important;
+   border: 1px solid #f90 !important ;
+
+}
+.btn-detail{
+    color: black !important;
+   border: 1px solid #3a5c8a !important ;
+}
+.btn-detail:hover{
+    color: white !important;
+    background-color: #3a5c8a !important;
+}
+.sale-sticky{
+    color: white;
+    background-color: #f90;
+    display: block;
+    text-align: center;
+    width: 120px;
+    position: absolute;
+    top: 0;
+    right: -31px;
+    padding-left: 23px;
+    transform: rotate(45deg);
+}
+.writer{
+    padding: 14px;
+    font-size: smaller;
+}
+/**calender**/
+
+.calender-list{
+    text-transform: uppercase;
+}
+.calender{
+    width: 220px;
+   
+}
+.calender-item{
+    background-color: tomato;
+    padding-left: 12px;
+    text-align: centers;
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+    display: inline-block;
+    margin-left: 36px;
+}
+.calender-text {
+    display: inline-block;
+    padding-left: 25px;
+    
+}
+/**tag**/
+.tag{
+    background-color: #f9fafb;
+    border-radius: 3px;
+    padding-top: 5px;
+    padding-left: 10px;
+    width: 220px;
+    margin-left: auto;
+}
+.tag-item-red{
+    text-decoration: none;
+    color: red;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.tag-item-yellow{
+    text-decoration: none;
+    color: yellow;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.tag-item-blue{
+    text-decoration: none;
+    color: purple;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.tag-h5{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/**head-horizontal**/
+.head-horizontal{
+    text-transform: uppercase;
+    margin-left: 324px;
+}
+/**card-horizontal**/
+.card-img-left{
+    display: inline-block;
+}
+.card-body-item{
+    margin-top: -160px;
+}
+.card-horizol{
+    width: 260px;
+    height: 198px;
+}
+.card-text-item{
+    margin-left: 125px;
+    font-size: smaller;
+}
+.card-title-item{
+    margin-left: 125px;
+}
+.btn-card{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 125px;
+}
+.col-card{
+    margin-left: 40px;
+}
+.btn-card-child{
+    margin-top: -7px;
+    
+    margin-bottom: 10px;
+    margin-left: 125px;
+}
+.head-horizontal-2{
+    text-transform: uppercase;
+    margin-left: 315px;
+
+}
+/**Footer**/
+footer{
+    background-color:  rgba(147, 255, 255, 1);
+}

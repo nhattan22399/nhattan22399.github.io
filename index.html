@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="fontawesome-free-5.15.3-web/css/all.css">  
+    <title>Home Page</title>
+</head>
+<body>
+<!--menu-->
+    <div id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-light  sticky-top"> 
+           
+                <div class="container">
+                <a class="navbar-brand" href="index.html"><i class="fas fa-fish"></i> Skinny Shark</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="NewBook.html">Sách mới</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="BXH.html">Bảng xếp hạng</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" >
+                        Danh mục
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Sách nói</a></li>
+                        <li><a class="dropdown-item" href="#">Ngôn tình</a></li>
+                        <li><a class="dropdown-item" href="#">linh dị</a></li>
+                        <li><a class="dropdown-item" href="#">Kinh doanh</a></li>
+                        <li><a class="dropdown-item" href="#">Kỹ năng</a></li>
+                        <li><a class="dropdown-item" href="#">Võ hiệp</a></li>
+                        <li><a class="dropdown-item" href="#">Thiếu nhi</a></li>
+                        <li><a class="dropdown-item" href="#">Khoa học - công nghệ</a></li>
+                        <li><a class="dropdown-item" href="#">Truyện tranh</a></li>
+                        <li><a class="dropdown-item" href="#">Chăm sóc gia đình</a></li>
+                        <li><a class="dropdown-item" href="#">Văn hóa - Xã hội</a></li>
+                        <li><a class="dropdown-item" href="#">Nhân vật - Sự kiện</a></li>
+                        <li><a class="dropdown-item" href="#">Văn học</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Các thể loại khác</a></li>
+                        </ul>
+                    <li class="nav-item"></li>
+                            <a class="nav-link" href="introduce.html">Về chúng tôi</a>
+                    </li>
+                    </ul>
+                    <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-success" type="submit">Search</button>
+                    </form>
+                    <button class="btn btn-outline-primary btn-nav"><a class="lk" href="Login.html"> Đăng nhập</a></button>
+                    <button class="btn btn-outline-primary btn-nav"><a class="lk" href="registration.html"> Đăng kí</a></button>
+                </div>
+                </div>
+            
+        </nav>
+    </div>
+    <!--end menu-->
+  
+    <div class="content" >     
+   
+        <!--slide--> 
+        <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="carousel">
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="Book1.html"><img src="image/mkns.jpg" class="d-block w-100" alt="First"></a>
+            </div>
+            <div class="carousel-item">
+                <a href="Book2.html"><img src="image/dnt.jpg" class="d-block w-100" alt="Second"></a>
+            </div>
+            <div class="carousel-item">
+                <a href="Book3.html"><img src="image/tdnvc.jpg" class="d-block w-100" alt="Third"></a>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div> 
+        <!--end slide-->
+        <!--jumbotron-->
+        <div class="container">
+            <div class="jumbotron">
+                <div class="col-md-12 text-center mt-3">
+                    <img src="image/sahrk1.PNG" height="150px" width="150px">
+                    <div class="jumbotron-text"><h2>Skinny Shark <br>Đọc, đọc nữa, đọc mãi</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--list product1-->   
+
+            <div class="container">
+                <h2 class="list-product-title mt-5">Sách hot</h2>
+                <p class="list-product-subtitle">Tổng hợp sách hot nhất tháng 6</p>
+                <div class="product-group">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 col-12">
+                            <div class="card card-product mb-3">
+                                <img src="image/b1.jpg" class="card-img-top" width="280px" height="400px" alt="book1">
+                                <div class="card-body">
+                                <h6 class="card-title product-title">Muôn kiếp nhân sinh 2</h6>
+                                <div class="card-text product-price">
+                                    <div class="writer-card">Nguyên Phong</div>
+                                </div>
+                                <a href="Book1.html" class="btn btn-info btn-add-to-cart"><i class="fas fa-book-open"></i></a>
+                                <a href="Book1.html" class="btn btn-outline-info btn-detail">Xem chi tiết <i class="fas fa-chevron-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-12">
+                            <div class="card card-product  mb-3">
+                                <img src="image/b2.jpg" class="card-img-top" width="280px" height="400px" alt="...">
+                                <div class="card-body">
+                                <h6 class="card-title product-title">Đắc nhân tâm</h6>
+                                <div class="card-text product-price">
+                                    <div class="writer-card">Dale Carnegie</div>
+                                </div>
+                                <a href="Book2.html" class="btn btn-info btn-add-to-cart"><i class="fas fa-book-open"></i></a>
+                                <a href="Book2.html" class="btn btn-outline-info btn-detail">Xem chi tiết <i class="fas fa-chevron-right"></i></a>
+                                
+                                <h4 class="sale-sticky">Hot</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-12">
+                            <div class="card card-product  mb-3">
+                                <img src="image/b3.jpg" class="card-img-top" width="280px" height="400px" alt="...">
+                                <div class="card-body">
+                                <h6 class="card-title product-title">Tư duy nhanh và chậm</h6>
+                                <div class="card-text product-price">
+                                    <div class="writer-card">Daniel Kahneman</div>
+                                </div>
+                                <a href="Book3.html" class="btn btn-info btn-add-to-cart"><i class="fas fa-book-open"></i></a>
+                                <a href="Book3.html" class="btn btn-outline-info btn-detail">Xem chi tiết <i class="fas fa-chevron-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-12">
+                            <div class="card card-product  mb-3">
+                                <img src="image/b4.jpg" class="card-img-top" width="280px" height="400px" alt="...">
+                                <div class="card-body">
+                                <h6 class="card-title product-title">Yêu nhau rồi cũng trở về với nhau</h6>
+                                <div class="card-text product-price">
+                                    <div class="writer-card">Mộc Tử Miêu Miêu</div>
+                                </div>
+                                <a href="book4.html" class="btn btn-info btn-add-to-cart"><i class="fas fa-book-open"></i></a>
+                                <a href="book4.html" class="btn btn-outline-info btn-detail">Xem chi tiết <i class="fas fa-chevron-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        <!--end list product1-->
+        <!--list product2-->
+            <div class="container">
+                <h2 class="list-product-title mt-5">Đọc nhiều nhất</h2>
+                <hr>
+                <div class="product-group">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-6 col-12 mt-2">
+                            <div class="card card-product mb-3">
+                                <img src="image/b1.jpg" class="card-img-top" width="150px" height="218px" alt="book1">
+                                <div class="card-body">
+                                <h6 class="card-title product-title">Muôn kiếp<br> nhân sinh 2</h6>                               
+                                </div>
+                                <div class="writer"><p >Nguyên Phong</p><hr>
+                                    <p>12.965 lượt đọc</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2 col-sm-6 col-12 mt-2">
+                            <div class="card card-product mb-3">
+                                <img src="image/tpbka.jpg" class="card-img-top" width="150px" height="218px" alt="book1">
+                                <div class="card-body">
+                                <h6 class="card-title product-title">Thuyết phục<br>bất kì ai</h6>                               
+                                </div>
+                                <div class="writer"><p >S.Renee Smith</p><hr>
+                                    <p>12.033 lượt đọc</p>
+                                </div>
+                            </div>
+                        </div><div class="col-md-2 col-sm-6 col-12 mt-2">
+                            <div class="card card-product mb-3">
+                                <img src="image/bqtt.jpg" class="card-img-top" width="150px" height="218px" alt="book1">
+                                <div class="card-body">
+                                <h6 class="card-title product-title">Bí quyết trường thọ<br> của người Nhật</h6>                               
+                                </div>
+                                <div class="writer"><p >Shigeaki Hinohara</p><hr>
+                                    <p>2.965 lượt đọc</p>
+                                </div>
+                            </div>
+                        </div><div class="col-md-2 col-sm-6 col-12 mt-2">
+                            <div class="card card-product mb-3">
+                                <img src="image/qtbh.jpg" class="card-img-top" width="150px" height="218px" alt="book1">
+                                <div class="card-body">
+                                <h6 class="card-title product-title">Quy trình bán hàng<br> chuyên nghiệp</h6>                               
+                                </div>
+                                <div class="writer"><p >Hilmon Sorey</p><hr>
+                                    <p>5.430 lượt đọc</p>
+                                </div>
+                            </div>
+                        </div><div class="col-md-2 col-sm-6 col-12 mt-2">
+                            <div class="card card-product mb-3">
+                                <img src="image/putin.jpg" class="card-img-top" width="150px" height="218px" alt="book1">
+                                <div class="card-body">
+                                <h6 class="card-title product-title">Putin - Logic<br>của quyền lực</h6>                               
+                                </div>
+                                <div class="writer"><p >Hubert Seipel</p><hr>
+                                    <p>5.147 lượt đọc</p>
+                                </div>
+                            </div>
+                        </div><div class="col-md-2 col-sm-6 col-12 mt-2">
+                            <div class="card card-product mb-3">
+                                <img src="image/100.jpg" class="card-img-top" width="150px" height="218px" alt="book1">
+                                <div class="card-body">
+                                <h6 class="card-title product-title">100 side Hustles<br> Nghề tay trái</h6>                               
+                                </div>
+                                <div class="writer"><p >Blake Morgan</p><hr>
+                                    <p>4.835 lượt đọc</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!--end list product2-->
+        <!--list product3-->
+            <div class="container">
+                <div class="product-group">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 col-12 mt-2">
+                            <div class="l-col">
+                                <h4 class="calender-list">Lich phát hành <i class="far fa-calendar-alt"></i></h4>
+                                <div class="calender">
+                                    <hr>
+                                    <div class="calender-item">1st<br>May</div>
+                                    <div class="calender-text">Khu vui chơi <br>đáng sợ</div>
+                                    <hr>
+                                </div>
+                                <div class="calender mt-2">
+                                    <hr>
+                                    <div class="calender-item">3rd<br>May</div>
+                                    <div class="calender-text">Y phẩm <br>phong hoa</div>
+                                    <hr>
+                                </div>
+                                <div class="calender mt-2">
+                                    <hr>
+                                    <div class="calender-item">5<br>May</div>
+                                    <div class="calender-text">Bách luyện <br>thành thần</div>
+                                    <hr>
+                                </div>
+                                <div class="calender  mt-2">
+                                    <hr>
+                                    <div class="calender-item">7<br>May</div>
+                                    <div class="calender-text">Thiên hậu <br>tiểu thanh mai</div>
+                                    <hr>
+                                </div>
+                                <div class="calender  mt-2">
+                                    <hr>
+                                    <div class="calender-item">8<br>May</div>
+                                    <div class="calender-text">Hành tẩu <br>âm dương</div>
+                                    
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="col-md-9 col-sm-6 col-12 mt-2">
+                            <div class="row">  
+                                <h4 class="head-horizontal">Sách nên đọc</h4>
+                                    
+                                        <div class="col-md-3 col-sm-6 col-12 mt-3 col-card">
+                                            <div class="card-horizol">
+                                                <img src="image/b2.jpg" class="card-img-left img-thumbnail" height="175px" width="120" alt="...">
+                                                <div class="card-body-item">
+                                                <h6 class="card-title-item">Đắc nhân tâm<br></h6>
+                                                <p class="card-text-item">Dale Carnegie</p>
+                                                <p class="card-text-item">4.533 lượt xem</p>
+                                                <a href="#" class="btn btn-primary btn-card"><i class="fas fa-book-open"></i> Đọc</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6 col-12 mt-3 col-card">
+                                            <div class="card-horizol">
+                                                <img src="image/qtbh.jpg" class="card-img-left img-thumbnail" height="175px" width="120" alt="...">
+                                                <div class="card-body-item">
+                                                <h6 class="card-title-item">Quy trình<br>bán hàng</h6>
+                                                <p class="card-text-item">Nhiều tác giả</p>
+                                                <p class="card-text-item">2.573 lượt xem</p>
+                                                <a href="#" class="btn btn-primary btn-card-child"><i class="fas fa-book-open"></i> Đọc</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6 col-12 mt-3 col-card">
+                                            <div class="card-horizol">
+                                                <img src="image/tnkh.jpg" class="card-img-left img-thumbnail" height="175px" width="120" alt="...">
+                                                <div class="card-body-item">
+                                                <h6 class="card-title-item">TNKH<br></h6>
+                                                <p class="card-text-item">Blake Morgan</p>
+                                                <p class="card-text-item">1.256 lượt xem</p>
+                                                <a href="#" class="btn btn-primary btn-card"><i class="fas fa-book-open"></i> Đọc</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3 col-sm-6 col-12 mt-3 col-card">
+                                    <div class="card-horizol">
+                                        <img src="image/tpbka.jpg" class="card-img-left img-thumbnail" height="175px" width="120" alt="...">
+                                        <div class="card-body-item">
+                                        <h6 class="card-title-item">TPBKA<br></h6>
+                                        <p class="card-text-item">S.Renee Smith</p>
+                                        <p class="card-text-item">3.211 lượt xem</p>
+                                        <a href="#" class="btn btn-primary btn-card"><i class="fas fa-book-open"></i> Đọc</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-12 mt-3 col-card">
+                                    <div class="card-horizol">
+                                        <img src="image/bqtt.jpg" class="card-img-left img-thumbnail" height="175px" width="120" alt="...">
+                                        <div class="card-body-item">
+                                        <h6 class="card-title-item">Bí quyết<br>trường thọ..</h6>
+                                        <p class="card-text-item">Shigeaki Hinohara</p>
+                                        <p class="card-text-item">2.684 lượt xem</p>
+                                        <a href="#" class="btn btn-primary btn-card-child"><i class="fas fa-book-open"></i> Đọc</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-12 mt-3 col-card">
+                                    <div class="card-horizol">
+                                        <img src="image/b3.jpg" class="card-img-left img-thumbnail" height="175px" width="120" alt="...">
+                                        <div class="card-body-item">
+                                        <h6 class="card-title-item">TDNVC<br></h6>
+                                        <p class="card-text-item">Daniel Kahneman</p>
+                                        <p class="card-text-item">4.521 lượt xem</p>
+                                        <a href="#" class="btn btn-primary btn-card"><i class="fas fa-book-open"></i> Đọc</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="tag mt-5">
+                                    <h5 class="calender-list mb-3 tag-h5">Tag nổi bật <i class="fas fa-tags"></i></h5>
+                                    
+                                    <a class="tag-item-red" href="#">Truyện ngôn tình</a><br>
+                                    <a class="tag-item-yellow" href="#">Truyện ngắn hay</a><br>
+                                    <a class="tag-item-blue" href="#">Truyện trinh thám</a><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!--end list product3-->
+    </div>  
+<footer>
+        <div class="container-fluid padding">
+            <div class="row mt-5">
+                <div class="col-md-12 text-center">
+                    <img class="image mt-2" src="image/sahrk1.PNG" width="150px" height="150px">
+                    <hr class="light">
+                    <p>SĐT: 0223199922</p>
+                    <p>Email: hdntan@students.hueic.edu.vn</p>
+                    <p>TP Huế, Thừa Thiên Huế, Việt Nam</p>
+                </div>
+            </div>
+        </div>
+</footer>   
+    <script type="text/javascript" src="jquery/jquery-3.6.0.min.js"   ></script>
+   <script type="text/javascript" src="bootstrap/js/bootstrap.js"   ></script>     
+   <script type="text/javascript">
+       
+   </script> 
+</body>
+</html>
